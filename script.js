@@ -6,7 +6,6 @@ function timelineOne(){
             trigger: "#home",
             start: "top top",
             scrub: 1,
-            markers: true,
             pin: true,
             end:"bottom -250%"
         }
@@ -88,7 +87,6 @@ function timelineTwo(){
             trigger: "#second",
             scrub: 1,
             start: "top top",
-            markers: true,
             end: "bottom-=250",  // Corrected
             pin: true
         }
@@ -144,4 +142,5 @@ function timelineTwo(){
 
 
 timelineOne();
+
 timelineTwo();
